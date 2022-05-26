@@ -1,0 +1,593 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+
+a.nav-link{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding: 3%;
+}
+
+button.btn-success{
+    background-color: #5CB85F;
+    border-color: #5CB85F;
+    font-weight: bold;
+    
+}
+
+.section-2{
+    margin-bottom: 3%;
+}
+
+.navbar-toggler{
+    border: 0px;
+}
+
+@media screen and (min-width : 375px) and (max-width : 576px){
+    .car-container{
+        text-align: center;
+    }
+
+    .car-bg{
+        height: auto;
+        width: 100%;
+        justify-content: start;
+        padding-top: 10%;
+    }
+
+    .header-sewa{
+        font-size: 3rem;
+    }
+
+    .service-container{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .service-pic{
+        height: auto;
+        width: 80%;
+        justify-content: center;
+    }
+    
+    .foot-list{
+        margin-left: 3%;
+    }
+
+    .bcr{
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .section-5{
+        background-color: #0D28A6;
+        border-radius: 13px;
+        margin-top: 11%;
+        color: white;
+        width: 90%;
+        height: 90%;
+        padding-bottom: 15%;
+        padding-top: 5%;
+    }
+
+    .card{
+        border-radius: 8px;
+        border-width: 1px;
+        height: 12.5rem;
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    #why-us{
+        text-align: center;
+    }
+
+    #why-us p{
+        padding-top: 1rem;
+    }
+
+    .section-2{
+        margin-bottom: 7%;
+    }
+
+    p span{
+        padding-right: 1rem; 
+    }
+
+    #carousel-body{
+        height: 90%;
+        width: 100%; 
+        background-color: #F1F3FF;
+        border-radius: 7px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        position: static;
+        
+    }
+
+    .rating{
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .testimonial-text{
+        padding-left: 10%;
+    }
+
+    .navbar-top{
+        display: none;
+    }
+
+    .faq-header{
+        text-align: center;
+        padding-bottom: 3%;
+        padding-top: 5%;
+    }
+
+
+    .offcanvas-end{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width : 576px) and (max-width : 768px){
+    .car-container{
+        text-align: center;
+    }
+
+    .car-bg{
+        height: auto;
+        width: 100%;
+        justify-content: start;
+    }
+    .foot-list{
+        margin-left: 3%;
+    }
+    .section-5{
+        background-color: #0D28A6;
+        border-radius: 13px;
+        margin-top: 11%;
+        color: white;
+        width: 90%;
+        height: 90%;
+        padding-bottom: 5%;
+        padding-top: 3%;
+    }
+
+    p span{
+        padding-right: 1rem; 
+    }
+
+    .card{
+        border-radius: 8px;
+        border-width: 1px;
+        height: 12.5rem;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #why-us{
+        text-align: center;
+    }
+
+    .rating{
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #carousel-body{
+        height: 90%;
+        width: 100%; 
+        background-color: #F1F3FF;
+        border-radius: 7px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        position: relative;
+    }
+
+    .testimonial-text{
+        padding-left: 10%;
+    }
+
+    .navbar-top{
+        display: none;
+    }
+
+    .offcanvas-end{
+        width: 60%;
+    }
+
+    .bcr{
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .offcanvas-end{
+        width: 45%;
+    }
+
+    .faq-header{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 992px){
+    .car-container{
+        text-align: start;
+    }
+
+    .car-bg{
+        height: auto;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .foot-list{
+        margin-left: 3%;
+    }
+    .section-5{
+        background-color: #0D28A6;
+        border-radius: 13px;
+        margin-top: 11%;
+        color: white;
+        width: 90%;
+        height: 90%;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+
+    p span{
+        padding-right: 1rem; 
+    }
+
+    #why-us{
+        text-align: center;
+    }
+
+    #carousel-body{
+        height: 95%;
+        width: 100%; 
+        background-color: #F1F3FF;
+        border-radius: 7px;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        position: relative;
+    }
+
+    .navbar-top{
+        display: none;
+    }
+
+    .service-container{
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    .bcr{
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .offcanvas-end{
+        width: 40%;
+    }
+
+    .faq-header{
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width : 992px) and (max-width : 1200px){
+    .car-container{
+        text-align: end;
+    }
+
+    .car-bg{
+        height: auto;
+        width: 100%;
+        justify-content: start;
+    }
+    .section-5{
+        background-color: #0D28A6;
+        border-radius: 13px;
+        margin-top: 11%;
+        color: white;
+        width: 90%;
+        height: 90%;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+
+    .card{
+        border-radius: 8px;
+        border-width: 1px;
+        height: 14rem;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .section-2{
+        padding-left: 17%;
+    }
+
+    #carousel-body{
+        height: 90%;
+        width: 100%; 
+        background-color: #F1F3FF;
+        border-radius: 7px;
+        padding-top: 5%;
+        position: relative;
+    }
+
+    p span{
+        padding-right: 1rem; 
+    }
+
+    .checkbox-container{
+        margin-left: 4.5rem;
+    }
+
+    .bcr{
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width : 1200px) and (max-width : 1440px){
+    .car-container{
+        text-align: end;
+    }
+
+    .car-bg{
+        height: auto;
+        width: 100%;
+        justify-content: start;
+    }
+    .section-5{
+        background-color: #0D28A6;
+        border-radius: 13px;
+        margin-top: 11%;
+        color: white;
+        width: 95%;
+        height: 90%;
+        padding-bottom: 5%;
+    }
+
+    .section-2{
+        padding-left: 14%;
+    }
+
+    #carousel-body{
+        height: 90%;
+        width: 100%; 
+        background-color: #F1F3FF;
+        border-radius: 7px;
+        padding-top: 3%;
+        position: relative;
+    }
+
+    p span{
+        padding-right: 1rem; 
+    }
+
+    .checkbox-container{
+        margin-left: 4.5rem;
+    }
+
+    .bcr{
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width : 1440px){
+    .car-container{
+        text-align: end;
+    }
+
+    .car-bg{
+        height: auto;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .foot-list{
+        margin-left: 15%;
+    }
+
+    .section-5{
+        background-color: #0D28A6;
+        border-radius: 13px;
+        margin-top: 11%;
+        color: white;
+        width: 100%;
+        height: 90%;
+        padding-bottom: 3%;
+    }
+
+    .card{
+        border-radius: 8px;
+        border-width: 1px;
+        height: 13rem;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .section-2{
+        padding-left: 12%;
+    }
+
+    #carousel-body{
+        height: 90%;
+        width: 100%; 
+        background-color: #F1F3FF;
+        border-radius: 7px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        position: relative;
+    }
+
+    p span{
+        padding-right: 1rem; 
+    }
+
+    .checkbox-container{
+        margin-left: 4.7rem;
+    }
+
+    .bcr{
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+.box-shape{
+    height: 34px;
+    width: 100px;
+    background-color: #0D28A6;
+    border-radius: 5px;
+}
+
+img.check-box{
+    padding: 10px;
+}
+
+
+/*Section 3 Card*/
+.card-pic{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.card-title{
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.card-description{
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 14px;
+  
+}
+
+
+
+
+h2{
+    font-weight: bold;
+}
+
+
+/*Section 4 Carousel*/
+
+
+
+.carousel-control-prev, .carousel-control-next{
+    position: static;
+    margin-top: 3%;
+    width: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+
+
+.h2-section-5{
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.p-section-5{
+    padding-top: 16px;
+    padding-bottom: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.btn-section-5{
+    padding-bottom: 64px;
+    border-radius: 2px;
+}
+
+/*Section 6 */
+h4{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: white;
+    box-shadow: inset;
+    
+}
+
+.accordion-button{
+    border: 1px solid #d4d4d4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.accordion-body{
+    border: 1px solid #d4d4d4;
+    border-top: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.faq-p{
+    padding-top: 16px;
+}
+/*Footer*/
+footer{
+    margin-top: 150px;
+    margin-bottom: 188px;
+}
+
+.foot-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.foot-list{
+    padding-bottom: 16px;
+    
+}
+
+.foot-logo{
+    padding-left: 5%;
+}
+
