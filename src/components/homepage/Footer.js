@@ -1,8 +1,8 @@
-import './style.css';
-import iconInstagram from '../img/icon_instagram.png';
-import iconTwitter from '../img/icon_twitter.png';
-import iconMail from '../img/icon_mail.png';
-import iconTwitch from '../img/icon_twitch.png';
+import '../style.css';
+import iconInstagram from '../../img/icon_instagram.png';
+import iconTwitter from '../../img/icon_twitter.png';
+import iconMail from '../../img/icon_mail.png';
+import iconTwitch from '../../img/icon_twitch.png';
 
 function Footer(){
 

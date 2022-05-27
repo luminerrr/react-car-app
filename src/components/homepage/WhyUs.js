@@ -1,8 +1,8 @@
-import './style.css'
-import iconComplete from '../img/icon_complete.png';
-import iconPrice from '../img/icon_price.png';
-import iconHours from '../img/icon_24hrs.png';
-import iconProfessional from '../img/icon_professional.png';
+import '../style.css'
+import iconComplete from '../../img/icon_complete.png';
+import iconPrice from '../../img/icon_price.png';
+import iconHours from '../../img/icon_24hrs.png';
+import iconProfessional from '../../img/icon_professional.png';
 
 function WhyUs(){
 

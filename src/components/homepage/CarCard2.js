@@ -1,6 +1,6 @@
-import './style.css';
-import checkBox from '../img/checkbox.png';
-import serviceImg from '../img/img_service.png';
+import '../style.css';
+import checkBox from '../../img/checkbox.png';
+import serviceImg from '../../img/img_service.png';
 
 function CarCard2(){
     return(

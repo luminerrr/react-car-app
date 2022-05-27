@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './components/Navbar';
-import CarCard1 from './components/CarCard1';
-import CarCard2 from './components/CarCard2';
-import WhyUs from './components/WhyUs';
-import Testimonial from './components/Testimonial';
-import Faq from './components/Faq';
-import Footer from './components/Footer';
+import Navbar from './components/homepage/Navbar';
+import CarCard1 from './components/homepage/CarCard1';
+import CarCard2 from './components/homepage/CarCard2';
+import WhyUs from './components/homepage/WhyUs';
+import Testimonial from './components/homepage/Testimonial';
+import Faq from './components/homepage/Faq';
+import Footer from './components/homepage/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

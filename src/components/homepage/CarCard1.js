@@ -1,5 +1,6 @@
-import './style.css';
-import carImage from '../img/img_car.png'
+import '../style.css';
+import carImage from '../../img/img_car.png'
+
 
 function CarCard1(){
     return(
@@ -12,7 +13,7 @@ function CarCard1(){
 					<button className="btn btn-success">Mulai Sewa Mobil</button>
 				</div>
 				<div className="col-lg-6 car-container">
-					<img src={carImage} className="car-bg" alt='car image' />
+					<img src={carImage} className="car-bg" alt='car' />
 				</div>
 			</div>
 		</div>
