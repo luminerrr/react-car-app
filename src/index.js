@@ -1,24 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './index.css';
-import Navbar from './components/homepage/Navbar';
-import CarCard1 from './components/homepage/CarCard1';
-import CarCard2 from './components/homepage/CarCard2';
-import WhyUs from './components/homepage/WhyUs';
-import Testimonial from './components/homepage/Testimonial';
-import Faq from './components/homepage/Faq';
-import Footer from './components/homepage/Footer';
+import Homepage from './components/homepage/Homepage';
+import Rent from './components/rent/Rent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <CarCard1 />
-    <CarCard2 />
-    <WhyUs />
-    <Testimonial />
-    <Faq />
-    <Footer />
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Homepage />} />
+      <Route path='/rent' element={<Rent />} />
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
