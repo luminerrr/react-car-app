@@ -1,6 +1,25 @@
 import './rent.css';
+import carImg from '../../img/car01.min.jpg';
+import carCalendar from '../../img/car-calendar.png';
+import carSetting from '../../img/car-setting.png';
+import carUser from '../../img/car-user.png';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 function Body(){
+	const [cars, setCars] = useState([]);
+	
+	useEffect(()=>{
+		axios.get('http://localhost:3001/api/v1/cars/getcars')
+		.then((res)=>{
+			setCars(res.data.data)
+			console.log(res.data.data)
+		})
+		.catch((err)=>{
+			console.log(err.message)
+		})
+	}, [])
 
     return(<>
 	
@@ -9,7 +28,7 @@ function Body(){
 			<div className="col form-box">
 				<label for="" className="search-label">Tipe Driver</label>
 				<select name="" id="" className="form-select dropdown">
-					<option selected value="0">Pilih Tipe Driver</option>
+					<option defaultValue value="0">Pilih Tipe Driver</option>
 					<option value="driver">Dengan Sopir</option>
 					<option value="no-driver">Tanpa Sopir (Lepas Kunci)</option>
 				</select>
@@ -40,6 +59,25 @@ function Body(){
 		</div>
 	</div>
 
+	<div className='container car-list-container'>
+		<div className='row'>
+			{cars.forEach((car)=>{
+				return(<>
+				<div className='card car-card col'>
+					<img src={carImg} alt='car' className='car-picture' />
+					<p id="car-type">{car.model}</p>
+					<p id="car-price"><b>Rp{car.price}</b></p>
+					<p id="car-description">Description</p>
+					<div className="icon-wrapper"><img src={carUser} alt="" className="car-icon" /><span>Capacity Orang </span> </div>
+					<div className="icon-wrapper"><img src={carSetting} alt="" className="car-icon" /><span>Transmission</span></div>
+					<div className="icon-wrapper"><img src={carCalendar} alt="" className="car-icon" /><span>Tahun Year</span></div>
+					<div className="btn-wrapper"><button className="btn btn-success" id="choose-car">Pilih Mobil</button></div>
+				</div>
+				</>)
+			})}
+		</div>
+	</div>
+	
     </>)
 }
 

@@ -112,11 +112,13 @@ div label{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
 }
-#car-picture{
-    max-width: 90%;
-    max-height: 90%;
+.car-picture{
+    max-width: 80%;
+    /* max-height: 100%; */
     height: auto;
     width: auto;
+    min-width: 50%;
+    align-self: center;
     /* height: 160px;
     width: 270px; */
     margin: 10% 10% 10% 10%;
@@ -153,8 +155,8 @@ div.car-card p:not(:first-child){
     padding-bottom: 1rem;
 }
 
-#car-capacity{
-}
+/* #car-capacity{
+} */
 
 #clear-btn{
     margin-left: 1rem;
