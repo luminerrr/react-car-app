@@ -3,7 +3,7 @@ import '../style.css';
 function Faq(){
 
     return(
-        <div className="container">
+        <div className="container" style={{marginTop:"5rem"}}>
 		<div className="row">
 			<div className="col-lg-5 faq-header">
 				<h4>Frequenly Asked Question</h4>
